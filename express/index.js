@@ -13,7 +13,7 @@ app.get('/pranish',(req,res)=>{
     console.log(req.body)
 })
 
-//linda
+//lindak
 app.listen(process.env.PORT,()=>{
     console.log(`Listening on port ${process.env.PORT}`);
 });
