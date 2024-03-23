@@ -12,8 +12,7 @@ app.get('/pranish',(req,res)=>{
     res.send('Hello world tweet!')
     console.log(req.body)
 })
-/dsadasda
-//lindakdh
+
 app.listen(process.env.PORT,()=>{
     console.log(`Listening on port ${process.env.PORT}`);
 });
