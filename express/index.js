@@ -7,7 +7,7 @@ const app =express();
 app.get('/',(req,res)=>{
     res.send('Hello world!')
 })
-//o
+//of
 app.get('/pranish',(req,res)=>{
     res.send('Hello world tweet!')
     console.log(req.body)
